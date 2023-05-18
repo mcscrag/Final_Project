@@ -53,9 +53,11 @@ Developing countries attempting to greenify their emerging economies want to und
 - Change in land use over time, change in urbanization over time
 
 ## Data Sources: 
-- Climate Data 2010-2023
+- Climate Data 2010-2023 (Taken from the World Bank's Country Climate and Development Report (CCDR))
     https://databank.worldbank.org/source/country-climate-and-development-report-(ccdr)
     filename: "final_draft_dataset.csv"
+    - CCDR Documentation: https://www.worldbank.org/en/publication/country-climate-development-reports
+    - Explanation of the Mt CO2e unit of measurement: https://www.epa.gov/sites/default/files/2014-12/documents/ghgcalculatorhelp.pdf
 
 - Temperature Data 1990-2022
     https://www.fao.org/faostat/en/#data/ET
