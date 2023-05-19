@@ -27,7 +27,7 @@ Team 3 has decided to explore climate data from around the world, including fact
 
 # Objective
 
-# Research Objective:
+## Business Objective:
 Developing countries attempting to greenify their emerging economies want to understand which economic sectors to focus on that will yield the most value - impact for their inputs and expenses. This is informed by understaning which sectors of the economy will be contributing most to emmissions in in the near future (10-20 years). 
 
 ## Primary Questions:
@@ -62,10 +62,9 @@ Developing countries attempting to greenify their emerging economies want to und
 - Temperature Data 1990-2022
     https://www.fao.org/faostat/en/#data/ET
     filename: "FAO_temperature_data_2010-2022.csv"
-
-        Description of data:
-        "Temperature change on land
-        The FAOSTAT Temperature change on land domain disseminates statistics of mean surface temperature change by country, with annual updates. The current dissemination covers the period 1961–2022. Statistics are available for monthly, seasonal and annual mean temperature anomalies, i.e., temperature change with respect to a baseline climatology, corresponding to the period 1951–1980. The standard deviation of the temperature change of the baseline methodology is also available. Data are based on the publicly available GISTEMP data, the Global Surface Temperature Change data distributed by the National Aeronautics and Space Administration Goddard Institute for Space Studies (NASA-GISS)."
+    - Description of data:
+      "Temperature change on land
+    The FAOSTAT Temperature change on land domain disseminates statistics of mean surface temperature change by country, with annual updates. The current dissemination covers the period 1961–2022. Statistics are available for monthly, seasonal and annual mean temperature anomalies, i.e., temperature change with respect to a baseline climatology, corresponding to the period 1951–1980. The standard deviation of the temperature change of the baseline methodology is also available. Data are based on the publicly available GISTEMP data, the Global Surface Temperature Change data distributed by the National Aeronautics and Space Administration Goddard Institute for Space Studies (NASA-GISS)
 
 - Country Classification by Economic Status 
     https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups
@@ -73,7 +72,7 @@ Developing countries attempting to greenify their emerging economies want to und
 
 ## Database Tables
 ERD for database construction
-    ![ERD](/ERD.png)
+    ![ERD](/sql/ERD.png)
 
 ## Presentation
 Google Slides
