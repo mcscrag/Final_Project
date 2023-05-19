@@ -71,8 +71,18 @@ Developing countries attempting to greenify their emerging economies want to und
     filename: "economic_status.csv"
 
 ## Database Tables
+Database will consist of Four PostgreSQL tables:
+- Countries: Name of 218 countries and 3 letter code
+- Economics: Countries grouped by region and economic status
+- Temperature:  Variation of temperature between 2010 to 2022 by country
+- Metrics: Several metrics related with our project  for 2010-2022 by country
+ 
 ERD for database construction
     ![ERD](/sql/ERD.png)
-
-## Presentation
-Google Slides
+    
+Database tables
+    ![tables](/sql/tables.png)
+    
+    
+## Presentations
+- [Segment 2 Presentation]([https://www.google.com](https://docs.google.com/presentation/d/1mrsQF34ie1bx3Etubn6RCz6RAqyWLeKMq1Wl7MOIAwc/edit?usp=sharing) "Segment 2 Presentation") 
