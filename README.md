@@ -78,13 +78,11 @@ Database will consist of Four PostgreSQL tables:
 - Metrics: Several metrics related with our project  for 2010-2022 by country
  
 ERD for database construction
-
     ![ERD](/sql/ERD.png)
     
 Database tables
-
-    ![tables](/sql/tables.png)
+   ![tables](/sql/tables.png)
     
     
 ## Presentations
-- [Segment 2 Presentation]([https://www.google.com](https://docs.google.com/presentation/d/1mrsQF34ie1bx3Etubn6RCz6RAqyWLeKMq1Wl7MOIAwc/edit?usp=sharing) "Segment 2 Presentation") 
+[Segment 2 Presentation]([https://www.google.com](https://docs.google.com/presentation/d/1mrsQF34ie1bx3Etubn6RCz6RAqyWLeKMq1Wl7MOIAwc/edit?usp=sharing) "Segment 2 Presentation") 
