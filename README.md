@@ -5,12 +5,12 @@ Module 21, UNC-CH Data Analytics Bootcamp, Spring 2023
 Team 3 has decided to explore climate data from around the world, including factors that may contribute to climate change such as (by country) greenhouse gas emissions, agricultural and arable land, energy consumption (gas, oil, or coal), GDP, average temperature, and total population. 
 
 
-# Team:
+# Team
 
 ## Team Roles and Responsibilities: 
-- Brendan McGee - scrum master, analysis, visualizations
-- Maria Cedillo - data exploration, ERD, database, vizualizations
-- Logan Krueger - database, vizualizations, recorder
+- Brendan McGee - scrum master, data exploration & analysis, machine learning, visualizations
+- Maria Cedillo - data exploration & analysis, ERD & database, AWS, vizualizations
+- Logan Krueger - data exploration & analysis, vizualizations, recorder
 
 ## Collaboration Tools: 
 - Slack
@@ -38,7 +38,7 @@ Developing countries attempting to greenify their emerging economies want to und
 - How has china vs the US changed over the last 13 years, in emissions and temperature? 
 
 
-# Method:
+# Method
 
 ## Machine Learning Model: Classification
 - Is the breakdown of emmissions by sector a predictor for economic status (i.e. high, upper middle, lower middle, low)
@@ -70,7 +70,7 @@ Developing countries attempting to greenify their emerging economies want to und
     https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups
     filename: "economic_status.csv"
 
-## Database Tables
+## Database Tables:
 Database will consist of Four PostgreSQL tables:
 - Countries: Name of 218 countries and 3 letter code
 - Economics: Countries grouped by region and economic status
@@ -78,9 +78,11 @@ Database will consist of Four PostgreSQL tables:
 - Metrics: Several metrics related with our project  for 2010-2022 by country
  
 ERD for database construction
+
     ![ERD](/sql/ERD.png)
     
 Database tables
+
     ![tables](/sql/tables.png)
     
     
