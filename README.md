@@ -1,7 +1,7 @@
 # Final_Project
 Module 21, UNC-CH Data Analytics Bootcamp, Spring 2023
 
-## Status Update: 5/16/2023
+## Status Update: 5/18/2023
 Team 3 has decided to explore climate data from around the world, including factors that may contribute to climate change such as (by country) greenhouse gas emissions, agricultural and arable land, energy consumption (gas, oil, or coal), GDP, average temperature, and total population. 
 
 
@@ -85,4 +85,4 @@ Database tables
     
     
 ## Presentations
-[Segment 2 Presentation]([https://www.google.com](https://docs.google.com/presentation/d/1mrsQF34ie1bx3Etubn6RCz6RAqyWLeKMq1Wl7MOIAwc/edit?usp=sharing "Segment 2 Presentation") 
+Segment 2 Presentation: https://docs.google.com/presentation/d/1mrsQF34ie1bx3Etubn6RCz6RAqyWLeKMq1Wl7MOIAwc/edit?usp=sharing [Segment 2 Presentation](https://docs.google.com/presentation/d/1mrsQF34ie1bx3Etubn6RCz6RAqyWLeKMq1Wl7MOIAwc/edit?usp=sharing "Segment 2 Presentation")
