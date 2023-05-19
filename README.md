@@ -85,4 +85,4 @@ Database tables
     
     
 ## Presentations
-[Segment 2 Presentation]([https://www.google.com](https://docs.google.com/presentation/d/1mrsQF34ie1bx3Etubn6RCz6RAqyWLeKMq1Wl7MOIAwc/edit?usp=sharing) "Segment 2 Presentation") 
+[Segment 2 Presentation]([https://www.google.com](https://docs.google.com/presentation/d/1mrsQF34ie1bx3Etubn6RCz6RAqyWLeKMq1Wl7MOIAwc/edit?usp=sharing "Segment 2 Presentation") 
