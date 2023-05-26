@@ -134,4 +134,4 @@ This line graph illustrates how consumption of each fuel type changed with time 
 ...placeholder for additional Tableau visualizations []
 
 # Project Presentation
-Final Presentation to Shareholders: https://docs.google.com/presentation/d/1ELYkyjRaMqS_IwX6mNWionJlfgnhnTLRV3eLk56WCu0/edit?usp=sharing [Segment 2 Presentation](https://docs.google.com/presentation/d/1ELYkyjRaMqS_IwX6mNWionJlfgnhnTLRV3eLk56WCu0/edit?usp=sharing "Final Presentation to Shareholders")
+[Final Presentation to Shareholders](https://docs.google.com/presentation/d/1ELYkyjRaMqS_IwX6mNWionJlfgnhnTLRV3eLk56WCu0/edit?usp=sharing "Final Presentation to Shareholders")
