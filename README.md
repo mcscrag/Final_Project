@@ -44,7 +44,7 @@ This is informed by understanding which sectors of the economy will be contribut
 
 ## Machine Learning Model: Classification
 - Three different classification models were run on our data. We used SkiKitLearn's DecisionTreeClassifier, EasyEnsembleClassifier, and RandomForestClassifier algorithms. 
-- The dataset was reduced to just the CO2 emissions columns, net electricity generation, total population, country name and year. The CO2 emissions due to Fugitive Emissions (any GHG leaking from a pipeline or train car, etc.) due to significantly more nulls in this metric. 
+- The dataset was reduced to just the CO2 emissions columns, net electricity generation, total population, country name and year. The CO2 emissions due to Fugitive Emissions (any GHG leaking from a pipeline or train car, etc.) was omitted due to significantly more nulls in this metric. 
 - This reduced dataset was merged with a classification dataset also retrieved from the World Bank data repository. This classifcationm dataset labels countries according to three possible income levels (High, Upper Middle, Lower Middle, and Low). The merge was performed in Pandas using pd.merge and the tables were joined on both the year and country_name columns. Once complete, now all of the rows of emissions data was labelled with an income classification. 
 - country_name and year were dropped, the income_group column was encoded with the values {'H': 0, 'UM': 1, 'LM: 2, 'L': 3}. 
 - The data was then assigned with X containing all of the features and y containing the target 'income_group' column. The features dataset X was then scaled, and finally the X_scaled set and y set were split into training and testing sets along a 75-25 split.
