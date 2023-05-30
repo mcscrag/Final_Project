@@ -107,8 +107,38 @@ After creating our database in AWS, we connected it to a Pgadmin local installat
 ...placeholder for forthcoming final analysis results []
 
 ## Machine Learning
-...placeholder for ML results & dataviz []
+Three machine learning models were trained and tested on the dataset
 
+## Confusion Matrices and Classification Reports
+
+#### Decision Tree
+
+![decision_tree](/sql/decision_tree.png)
+
+#### Easy Ensemble
+
+![easy_ensemble](/sql/easy_ensemble.png)
+
+#### Random Forest
+
+![random_forest](/sql/random_forest.png)
+
+### Feature Importance Analysis
+
+#### Decision Tree
+
+![feature_importance](/sql/tree_importance.png)
+
+### Model Tuning and Grid Search Cross Validation
+
+#### Decision Tree
+
+Best Parameters: 
+    - Criterion: Entropy
+    - Max Depth: 7
+    - Max Features: log2
+
+![tree_tuning](/sql/tree_tuning.png)
 
 
 ## Visualizations 
