@@ -153,22 +153,22 @@ Focusing primarily on the Random Forest model since it performs the best, we emp
 #### Random Forest
 
 Original Parameters:
-    - Criterion: Gini (default)
-    - Max Depth: None (default)
-    - Max Features: sqrt (default)
-    - n_estimators: 128
+- Criterion: Gini (default)
+- Max Depth: None (default)
+- Max Features: sqrt (default)
+- n_estimators: 128
 
 Validated the following parameters:
-    - Criterion: Entropy, Gini
-    - Max Depth: 4, 5, 6, 7, 8
-    - Max Features: sqrt, log2
-    - n_estimators: 100, 200, 300, 400, 500 
+- Criterion: Entropy, Gini
+- Max Depth: 4, 5, 6, 7, 8
+- Max Features: sqrt, log2
+- n_estimators: 100, 200, 300, 400, 500 
     
 Best Parameters: 
-    - Criterion: Entropy
-    - Max Depth: 8
-    - Max Features: sqrt
-    - n_estimators: 400
+- Criterion: Entropy
+- Max Depth: 8
+- Max Features: sqrt
+- n_estimators: 400
 
 ![tree_tuning](/sql/forest_tuning.png)
 
