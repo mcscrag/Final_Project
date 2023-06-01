@@ -170,6 +170,8 @@ Best Parameters:
 - Max Features: sqrt
 - n_estimators: 400
 
+Running the model again with optimized parameters yielded an accuracy score of 92% and the following confusion matrix:
+
 ![tree_tuning](/sql/forest_tuning.png)
 
 #### Conclusions
