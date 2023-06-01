@@ -88,11 +88,10 @@ The database consists of three PostgreSQL tables that are hosted in AWS:
 - Economics: Countries grouped by region and income group by year
 - Metrics: Several metrics related with our project for 1990-2022 by country and by country
  
- ERD for database construction
+ERD for database construction
+    
+    ![EDR_6Tables](https://github.com/mcscrag/Final_Project/assets/120151872/bbad81f6-d3e9-4b09-bfe3-4ba00ac67ba0)
 
-    ![ERD](/sql/ERD.png)
-    
-    
 Database tables
    
   
