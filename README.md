@@ -43,6 +43,9 @@ This is informed by understanding which sectors of the economy will be contribut
 # Method
 
 ## Machine Learning Model: Classification
+### Objectives
+- Can an ML model use CO2 emissions data broken down by economic sector to predict and classify the wealth per capita of a country. 
+### Method
 - Three different classification models were run on our data. We used SkiKitLearn's DecisionTreeClassifier, EasyEnsembleClassifier, and RandomForestClassifier algorithms. 
 - The dataset was reduced to just the CO2 emissions columns, net electricity generation, total population, country name and year. The CO2 emissions due to Fugitive Emissions (any GHG leaking from a pipeline or train car, etc.) was omitted due to significantly more nulls in this metric. 
 - This reduced dataset was merged with a classification dataset also retrieved from the World Bank data repository. This classifcationm dataset labels countries according to three possible income levels (High, Upper Middle, Lower Middle, and Low). The merge was performed in Pandas using pd.merge and the tables were joined on both the year and country_name columns. Once complete, now all of the rows of emissions data was labelled with an income classification. 
@@ -107,9 +110,9 @@ After creating our database in AWS, we connected it to a Pgadmin local installat
 ...placeholder for forthcoming final analysis results []
 
 ## Machine Learning
-Three machine learning models were trained and tested on the dataset
+Three machine learning models were trained and tested on the dataset.
 
-## Confusion Matrices and Classification Reports
+### Confusion Matrices and Classification Reports
 
 #### Decision Tree
 
@@ -123,23 +126,57 @@ Three machine learning models were trained and tested on the dataset
 
 ![random_forest](/sql/random_forest.png)
 
+#### Conclusions
+
+- The random forest classification model gave the highest accuracy score, closely followed by the decision tree classifier. The Ensemble classifier performed far more poorly.
+
 ### Feature Importance Analysis
+SciKitLearn's decision tree model and random forest model both have the functionality to provide information about which features contributed the most to the output.
 
 #### Decision Tree
 
 ![feature_importance](/sql/tree_importance.png)
 
+#### Random Forest
+
+![feature_importance](/sql/forest_importance.png)
+
+#### Conclusions
+
+- For both models the Total Population of a country was the most correlated to it's economic classification. 
+- The most important emissions by economic sector were transportation and Land-Use-Change. This correlates well with the following data visualizations that show a large difference between High Income countries and Low Income countries in these two sectors. 
+- Population being included in the model may be too important and contributing to overfitting.
+
 ### Model Tuning and Grid Search Cross Validation
+Focusing primarily on the Random Forest model since it performs the best, we employed grid search cross validation to find the most optimal parameters.
 
-#### Decision Tree
+#### Random Forest
 
+Original Parameters:
+    - Criterion: Gini (default)
+    - Max Depth: None (default)
+    - Max Features: sqrt (default)
+    - n_estimators: 128
+
+Validated the following parameters:
+    - Criterion: Entropy, Gini
+    - Max Depth: 4, 5, 6, 7, 8
+    - Max Features: sqrt, log2
+    - n_estimators: 100, 200, 300, 400, 500 
+    
 Best Parameters: 
     - Criterion: Entropy
-    - Max Depth: 7
-    - Max Features: log2
+    - Max Depth: 8
+    - Max Features: sqrt
+    - n_estimators: 400
 
-![tree_tuning](/sql/tree_tuning.png)
+![tree_tuning](/sql/forest_tuning.png)
 
+#### Conclusions
+
+- The tuning actually lead to a slightly less accurate result.
+- It's possible that the Max_depth parameter is too impactful to leave on default as we did with the original model. Our grid search actually doesn't include a none value for max_depth, which is the default setting used in the original run of the model.
+- In the future we could explore how much leaving max_depth at none contributes to overfitting, and if we actually overfit the data and our optimized parameters are a better fit for real data.
 
 ## Visualizations 
 
