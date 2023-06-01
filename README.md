@@ -90,7 +90,7 @@ The database consists of three PostgreSQL tables that are hosted in AWS:
  
 ERD for database construction
     
-    ![EDR_6Tables](https://github.com/mcscrag/Final_Project/assets/120151872/bbad81f6-d3e9-4b09-bfe3-4ba00ac67ba0)
+ ![EDR_6Tables](https://github.com/mcscrag/Final_Project/assets/120151872/517ec6e4-4f13-4dd2-8c92-f15b8debb888)
 
 Database tables
    
