@@ -26,16 +26,14 @@ Team 3 has updated this file to submit for Module 21, Segment 3.
 
 
 # Project
-The World Bank Climate Change Initiative: Greenification of Emerging Economies
+## The World Bank Climate Change Initiative: Greenification of Emerging Economies
 
 The World Bank has two goals: end extreme poverty and promote shared prosperity in a sustainable way. 
 Specifically, through their Climate Change Initiative: they are working to understand sustainable solutions that build shared prosperity in developing countries!
 From the [World Bank Climate Initiative Website](https://openknowledge.worldbank.org/entities/publication/ee8a5cd7-ed72-542d-918b-d72e07f96c79) “Climate change, poverty, and inequality are the defining issues of our age. The World Bank Group is the biggest multilateral funder of climate investments in developing countries. And we intend to go further in helping countries reduce poverty and rise to the challenges of climate change.”
 
-
 ## Business Objective:
-Emerging economies want to understand which economic sectors to focus on that will yield the most value - impact for their inputs and expenses. 
-This is informed by understanding which sectors of the economy will be contributing most to emissions in in the near future (10-20 years) using historical data. 
+Emerging economies want to understand which economic sectors to focus on that will yield the most value - impact for their inputs and expenses. This is informed by understanding which sectors of the economy will be contributing most to emissions in in the near future (10-20 years) using historical data. Given a certain amount of money slated for climate investment in low-income countries, we will attempt to determine which economic sector or sectors would provide the most impact on reducing CO2 emissions without interfering with a country's economic development - providing a "low-carbon transition to growth".
 
 ## Primary Questions:
 - Using historical emissions, economic, and climate data, can we predict which sectors of developing countries' economies are the most impactful? 
