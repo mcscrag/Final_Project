@@ -1,8 +1,8 @@
 # Final_Project
 Module 21, UNC-CH Data Analytics Bootcamp, Spring 2023
 
-### Status Update: 5/25/2023
-Team 3 has updated this file to submit for Module 21, Segment 3.
+### Status Update: 6/1/2023
+Team 3 has updated this file for submission to the final Module 21 segment
 
 
 # Team
@@ -16,6 +16,7 @@ Team 3 has updated this file to submit for Module 21, Segment 3.
 - Slack
 - Github: https://github.com/mcscrag/Final_Project
 - Google Slides [Final Presentation to Shareholders](https://docs.google.com/presentation/d/1ELYkyjRaMqS_IwX6mNWionJlfgnhnTLRV3eLk56WCu0/edit?usp=sharing "Final Presentation to Shareholders")
+- Tableau Public: see link to interactive visualization dashboards in "Results, Visualizations"
 
 ## Communication Protocol: 
 - Main communication channel: Slack
@@ -187,16 +188,16 @@ Running the model again with optimized parameters yielded an accuracy score of 9
 [Link to Interactive Dashboard 2: Emissions by Income Group](https://public.tableau.com/views/Group3_Final_Project/EmissionsbyIncomeGroup_1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 - Interactive map displays countries by income level for the most recent date available
 - Time series line charts depict emissions by economic sector for high and low income counties
--   Note energy sector contributions to emissions has been declining since ~2005 for high income countries, while the other sectors' contributions remain steady
--   Note land use change and energy are the largest contributing sectors to emissions for low income countries, and have been increasing since ~2000
+    - Note energy sector contributions to emissions has been declining since ~2005 for high income countries, while the other sectors' contributions remain steady
+    - Note land use change and energy are the largest contributing sectors to emissions for low income countries, and have been increasing since ~2000
 
 
 [Link to Interactive Dashboard 3: Emissions & Consumption by GDP, Urbanization](https://public.tableau.com/views/Group3_Final_Project/EmissionsConsumption?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 - Time series area chart depicting daily consumption per capita of the 3 energy inputs - coal, gas, and oil - separated by income group
--   Note increasing use of gas by high income countries over other forms of energy, and increased use of coal by high upper middle and lower middle countries
--  Note transportation subsector emissions have been declining in high income countries since ~2005, while upper middle emissions have been steadily increasing in that sime timeframe
+    - Note increasing use of gas by high income countries over other forms of energy, and increased use of coal by high upper middle and lower middle countries
+    - Note transportation subsector emissions have been declining in high income countries since ~2005, while upper middle emissions have been steadily increasing in that sime timeframe
 -  Butterfly chart depicts growth in total greenhouse gas emissions by country for low-income countries, sorted in descending order, next to GDP growth
--   Note the lack of correlation between total emissions growth and GDP growth - GDP growth therefore cannot be used as a predictor of a change in total emissions
+    - Note the lack of correlation between total emissions growth and GDP growth - GDP growth therefore cannot be used as a predictor of a change in total emissions
 -  Pie chart depicts urbanization (the percent of the population of a given country that is urban versus rural) by income group for any given selectable year (1990-present)
 -  Interactive map depicts GDP growth by selectable year
 
